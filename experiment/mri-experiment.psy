@@ -1,0 +1,24 @@
+bitmaps
+  im_1
+  im_2
+  im_3
+
+task go
+  keys space
+  set $errorstatus 0
+  show bitmap im_1
+  readkey 1 2000 # wait 2 seconds for key to be pressed
+  clear 1
+  if STATUS == TIMEOUT
+    set $errorstatus 1
+    show bitmap im_2
+    delay 2000
+    clear 2
+  fi
+  delay 500 # intertrial interval
+
+
+block testBlock
+  tasklist
+    go 5
+  end

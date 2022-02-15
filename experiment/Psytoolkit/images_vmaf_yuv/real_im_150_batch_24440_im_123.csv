@@ -1,0 +1,2 @@
+Frame,integer_adm2,integer_adm_scale0,integer_adm_scale1,integer_adm_scale2,integer_adm_scale3,integer_motion2,integer_motion,integer_vif_scale0,integer_vif_scale1,integer_vif_scale2,integer_vif_scale3,psnr_y,psnr_cb,psnr_cr,ciede2000,float_ssim,float_ms_ssim,vmaf,
+0,0.834356,0.886883,0.768240,0.809608,0.864249,0.000000,0.000000,0.498521,0.641160,0.701674,0.753950,25.038084,60.000000,60.000000,39.416251,0.948865,0.963707,37.302230,

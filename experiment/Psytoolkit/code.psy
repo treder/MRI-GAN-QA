@@ -1,0 +1,246 @@
+options
+  bitmapdir images
+  fullscreen
+  resolution 1440 900
+  set &my_trial_counter 1
+  set &trial_block_counter 1
+
+fonts
+  arial 18
+  mysmallfont arial 20
+  mybigfont arial 30
+
+bitmaps
+  include basic_images.txt
+  include slow_training_images.txt
+  include training_images.txt
+  include main_experiment_images.txt
+  include rating_images.txt
+
+# columns in table
+# image_name correct_button batch(1-5 or 0 for real)
+table slow_training_table
+  include slow_training_table.txt
+
+table training_table
+  include training_table.txt
+
+table main_experiment_table
+  include main_experiment_table.txt
+
+table rating_table
+  include rating_table.txt
+
+part countdown
+  bitmap three
+  delay 1000
+  bitmap two
+  delay 1000
+  bitmap one
+  delay 1000
+
+part slow_show_image
+  keys left right
+  set $timeout 0
+  show bitmap left_arrow -400 280
+  show bitmap right_arrow 400 280
+  show bitmap @1
+
+part show_image
+  keys left right
+  set $timeout 0
+  show bitmap left_arrow -400 280
+  show bitmap right_arrow 400 280
+  show bitmap @1
+  delay 400
+  clear -1
+
+part show_image_unlimited_time
+  keys left right
+  set $timeout 0
+  show bitmap left_arrow -400 280
+  show bitmap right_arrow 400 280
+  show bitmap @1
+
+# ---- task definitions ----
+
+task DETECTION_SLOW_TRAINING_TASK
+  table slow_training_table
+  part slow_show_image
+  readkey @2 10000 # wait seconds for key to be pressed
+  clear -1
+  if STATUS == TIMEOUT
+    set $timeout 1
+    font arial
+    show text "Timed out. Please press faster next time."
+    delay 2000
+    clear -1
+  fi
+  if STATUS == CORRECT
+    set $timeout 1
+    font mybigfont
+    show text "CORRECT" 0 0 10 220 10
+    delay 800
+    clear -1
+  fi
+  if STATUS == WRONG
+    set $timeout 1
+    font mybigfont
+    show text "WRONG" 0 0 220 10 10
+    delay 800
+    clear -1
+  fi
+  set $ITI random 400 600      # random intertrial interval
+  save BLOCKORDER BLOCKNAME BLOCKNUMBER TASKNAME TRIALCOUNT TABLEROW KEY STATUS RT @2 @3 $timeout $ITI 0 0 0
+  delay $ITI
+
+
+task DETECTION_TRAINING_TASK
+  table training_table
+  part show_image_unlimited_time
+  # part show_image # limited time
+  #readkey @2 3000 #limited time
+  readkey @2 20000 # wait seconds for key to be pressed
+  clear -1
+  if STATUS == TIMEOUT
+    set $timeout 1
+    font arial
+    show text "Timed out. Please press faster next time."
+    delay 2000
+    clear -1
+  fi
+  if STATUS == CORRECT
+    set $timeout 1
+    font mybigfont
+    show text "CORRECT" 0 0 10 220 10
+    delay 800
+    clear -1
+  fi
+  if STATUS == WRONG
+    set $timeout 1
+    font mybigfont
+    show text "WRONG" 0 0 220 10 10
+    delay 800
+    clear -1
+  fi
+  set $ITI random 400 600      # random intertrial interval
+  save BLOCKORDER BLOCKNAME BLOCKNUMBER TASKNAME TRIALCOUNT TABLEROW KEY STATUS RT @2 @3 $timeout $ITI 0 0 0
+  delay $ITI
+
+# main task with unlimited exposure time
+task DETECTION_TASK
+  table main_experiment_table
+  part show_image_unlimited_time # unlimited time
+  #part show_image # limited time
+  #readkey @2 3000 # limited time
+  readkey @2 20000 # wait seconds for key to be pressed 
+  clear -1 # unlimited time
+  if STATUS == TIMEOUT
+    set $timeout 1
+    font arial
+    show text "Timed out. Please press faster next time."
+    delay 2000
+    clear -1
+  fi
+  if &my_trial_counter > 80
+    show text "Please take a short break. Press any arrow key when you are ready to continue." 0 0
+    show text "Finished block     / 3." -65 -150
+    show text &trial_block_counter 0 -150
+    readkey 3 999999
+    clear -1 -2 -3
+    set &my_trial_counter 0
+    set &trial_block_counter increase
+    show bitmap three
+    delay 1000
+    clear -1
+    show bitmap two
+    delay 1000
+    clear -1
+    show bitmap one
+    delay 1000
+    clear -1
+  fi
+  set &my_trial_counter increase
+  set $ITI random 400 600      # random intertrial interval
+  save BLOCKORDER BLOCKNAME BLOCKNUMBER TASKNAME TRIALCOUNT TABLEROW KEY STATUS RT @2 @3 $timeout $ITI 0 0 0
+  delay $ITI
+
+task RATING_TASK
+  table rating_table
+  show bitmap @1
+  rate option pos 0 200
+  rate option labels rate_label_real rate_label_fake
+  #rate option items my_rectangle
+  rate 10000 5
+  save BLOCKORDER BLOCKNAME BLOCKNUMBER TASKNAME TRIALCOUNT TABLEROW 0 0 0 0 @2 0 0 RATE RATE_RT RATE_STATUS
+
+# ---- block definitions ----
+
+block WELCOME_BLOCK
+  message welcome
+  message instruction
+  message instruction2
+  message instruction3
+
+block DETECTION_SLOW_TRAINING_BLOCK
+  message instruction_slow_practice
+  part countdown
+  tasklist
+    DETECTION_SLOW_TRAINING_TASK 30 all_before_repeat
+  end
+  feedback
+    set &MyVar count ; select c8 == 1 && c3 == BLOCKNUMBER
+    text  0 -150 &MyVar ; prefix "You correctly classified" ; postfix "/30 images."
+    text  0 0 "Press SPACE to continue."
+  end
+  message end_practice
+
+block DETECTION_TRAINING_BLOCK
+  #message instruction_practice
+  message instruction_practice_unlimited
+  part countdown
+  tasklist
+    DETECTION_TRAINING_TASK 30 all_before_repeat
+  end
+  feedback
+    set &MyVar count ; select c8 == 1 && c3 == BLOCKNUMBER
+    text  0 -150 &MyVar ; prefix "You correctly classified" ; postfix "/30 images."
+    text  0 0 "Press SPACE to continue."
+  end
+  message end_practice
+
+block DETECTION_BLOCK
+  #message instruction_main_experiment # limited time
+  message instruction_main_experiment_unlimited # unlimited time
+  part countdown
+  tasklist
+    DETECTION_TASK 240 all_before_repeat
+  end
+  message end_main_experiment
+
+block RATING_BLOCK
+  message instruction_rating
+  part countdown
+  tasklist
+    RATING_TASK 30 all_before_repeat
+  end
+  message end_rating
+
+block END_BLOCK
+  message goodbye
+
+# ---- block order ----
+
+blockorder
+  WELCOME_BLOCK
+  DETECTION_TRAINING_BLOCK
+  DETECTION_BLOCK
+  RATING_BLOCK
+  END_BLOCK
+
+blockorder
+  WELCOME_BLOCK
+  DETECTION_TRAINING_BLOCK
+  RATING_BLOCK
+  DETECTION_BLOCK
+  END_BLOCK
