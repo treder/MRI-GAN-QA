@@ -6,13 +6,19 @@ Data and code accompanying the paper [INSERT PAPER LINK].
 
 Clone the repo and install the following packages:
 
-- `tensorflow`
-- `scikit-learn`
-- `statsmodels`
+- `tensorflow` (v2)
+- `tensorflow_probability`
+- `PIL`
+- `opencv`
+- `scipy`
 - `numpy`
 - `pandas`
+- `statsmodels`
+- `scikit-learn`
+- `jupyter`
 - `matplotlib`
 - `seaborn`
+- `tqdm`
 
 ### Structure of the repo
 
