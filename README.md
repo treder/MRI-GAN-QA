@@ -42,7 +42,7 @@ The Deep QA model is trained by running
 python DeepQA_train.py
 ```
 
-It reads the behavioral data, extracts the empirical distibution of ratings for the images, and trains on the probabilistic labels. Set `train_detection_model = True` (l.325) to also train the detection model from scratch. You may need to adapt the file paths accordingly (ll. 23-26). The script can be taken as a starting point further improvements using data augmentation, merging with other datasets, or semi-supervised learning.
+It reads the behavioral data, extracts the empirical distibution of ratings for the images, and trains on the probabilistic labels. Set `train_detection_model = True` ([l.325](/scripts/DeepQA_train.py#L325)) to also train the detection model from scratch. You may need to adapt the file paths accordingly (ll. 23-26). The script can be taken as a starting point further improvements using data augmentation, merging with other datasets, or semi-supervised learning.
 
 For inference, run `DeepQA_inference.py`. Given an input folder with images, the output is a `csv` file with the logits (for each of the five items on the rating scale) and the predicted rating (=arg max of the logits).
 
@@ -50,7 +50,7 @@ For inference, run `DeepQA_inference.py`. Given an input folder with images, the
 python DeepQA_inference.py --model_dir /path/to/model/ --image_dir /path/to/test/images
 ```
 
-See ll.29-34 for additional command line parameters. 
+See [l.29-34](/scripts/DeepQA_inference.py#L29-L34) for additional command line parameters. 
 
 
 
