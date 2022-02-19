@@ -1,0 +1,36 @@
+version: 3.1.0
+server-time: 2020-10-31-10-55
+user_agent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:79.0) gecko/20100101 firefox/79.0
+screen_width: 2560
+screen_height: 1440
+html_width: 1505
+html_height: 4821
+user_time: Sat, 31 Oct 2020 09:55:53 GMT
+T: 8050
+l: age
+stime: 2020-10-31-10-55
+T: 2988
+t: range
+a: 18
+s: 18
+l: gender
+stime: 2020-10-31-10-55
+T: 2963
+t: radio
+a: 1
+l: experience
+stime: 2020-10-31-10-56
+T: 14112
+t: radio
+a: 3
+l: years
+stime: 2020-10-31-10-56
+T: 17341
+t: range
+a: 19
+s: 19
+l: number
+stime: 2020-10-31-10-56
+T: 14956
+t: radio
+a: 3

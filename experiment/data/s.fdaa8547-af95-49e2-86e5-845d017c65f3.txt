@@ -1,0 +1,47 @@
+version: 3.1.0
+server-time: 2020-11-30-12-09
+user_agent: mozilla/5.0 (windows nt 6.3; win64; x64; rv:83.0) gecko/20100101 firefox/83.0
+screen_width: 1920
+screen_height: 1080
+html_width: 1621
+html_height: 4714
+user_time: Mon, 30 Nov 2020 11:09:55 GMT
+T: 95173
+l: age
+stime: 2020-11-30-12-10
+T: 6195
+t: range
+a: 33
+s: 33
+l: gender
+stime: 2020-11-30-12-10
+T: 1863
+t: radio
+a: 2
+l: experience
+stime: 2020-11-30-12-10
+T: 22891
+t: radio
+a: 3
+l: years
+stime: 2020-11-30-12-10
+T: 15713
+t: range
+a: 3
+s: 3
+l: number
+stime: 2020-11-30-12-11
+T: 25537
+t: radio
+a: 2
+l: fake_mris
+stime: 2020-11-30-12-33
+T: 1362610
+t: experiment
+l: comment
+stime: 2020-11-30-12-35
+T: 109287
+t: textbox
+a: Figures were quite small on a 24 inch. screen with 100% zoom on the browser.
+endcode: xs6FhKRV
+end 2020-11-30-12-35

@@ -1,0 +1,47 @@
+version: 3.1.0
+server-time: 2020-09-17-14-11
+user_agent: mozilla/5.0 (macintosh; intel mac os x 10_14_6) applewebkit/537.36 (khtml, like gecko) chrome/85.0.4183.102 safari/537.36
+screen_width: 1440
+screen_height: 900
+html_width: 1309
+html_height: 4885
+user_time: Thu, 17 Sep 2020 12:11:29 GMT
+T: 20551
+l: age
+stime: 2020-09-17-14-11
+T: 8261
+t: range
+a: 41
+s: 41
+l: gender
+stime: 2020-09-17-14-11
+T: 2503
+t: radio
+a: 2
+l: experience
+stime: 2020-09-17-14-11
+T: 11507
+t: radio
+a: 3
+l: years
+stime: 2020-09-17-14-12
+T: 5792
+t: range
+a: 5
+s: 5
+l: number
+stime: 2020-09-17-14-12
+T: 12228
+t: radio
+a: 2
+l: fake_mris
+stime: 2020-09-17-14-24
+T: 754639
+t: experiment
+l: comment
+stime: 2020-09-17-14-25
+T: 12625
+t: textbox
+a: flawless - Matthias
+endcode: bGt5jmPm
+end 2020-09-17-14-25

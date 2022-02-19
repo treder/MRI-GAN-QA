@@ -1,0 +1,47 @@
+version: 3.1.0
+server-time: 2020-11-01-00-07
+user_agent: mozilla/5.0 (x11; ubuntu; linux x86_64; rv:82.0) gecko/20100101 firefox/82.0
+screen_width: 2560
+screen_height: 1080
+html_width: 2492
+html_height: 4870
+user_time: Sat, 31 Oct 2020 23:07:13 GMT
+T: 36679
+l: age
+stime: 2020-11-01-00-07
+T: 10634
+t: range
+a: 39
+s: 39
+l: gender
+stime: 2020-11-01-00-07
+T: 1933
+t: radio
+a: 2
+l: experience
+stime: 2020-11-01-00-07
+T: 8308
+t: radio
+a: 2
+l: years
+stime: 2020-11-01-00-08
+T: 25414
+t: range
+a: 13
+s: 13
+l: number
+stime: 2020-11-01-00-08
+T: 9082
+t: radio
+a: 3
+l: fake_mris
+stime: 2020-11-01-00-20
+T: 728462
+t: experiment
+l: comment
+stime: 2020-11-01-00-21
+T: 79767
+t: textbox
+a: Thanks for setting this up, an interesting study. The scans are not typical of usual clinical scans.
+endcode: sCpsTy5a
+end 2020-11-01-00-21

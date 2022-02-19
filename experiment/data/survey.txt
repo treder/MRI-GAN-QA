@@ -1,0 +1,43 @@
+l: age
+t: range
+q: What is your age?
+- {min=18,max=80} Select your age
+
+l: gender
+t: radio
+q: What is your gender?
+- Female
+- Male
+- Prefer not to say
+
+l: experience
+t: radio
+q: What is your type of experience with MRIs?
+- Experience with reliability of diagnostic imaging (e.g. MR physicist or radiographer)
+- Clinical experience with diagnostic imaging (e.g. radiologist or neurologist)
+- Experience with MRI for research purposes, ie. without diagnostic purposes (e.g. postdoc in neuroimaging)
+- Limited experience with MRI (e.g. undergrad or early PhD student)
+
+l: years
+t: range
+q: How many years of experience with MRIs do you have?
+- {min=1,max=40} Select number of years
+
+l: number
+t: radio
+q: How many individual MRI brains do you roughly see every year?
+- less than 10 images
+- 10-100
+- 100-500
+- 500-1000
+- >1000
+
+l: fake_mris
+t: experiment
+q: Please follow the instructions...
+- Fake_MRIs
+
+l: comment
+t: textbox
+q: (optional) do you want to leave any feedback? Comments, improvements for future studies or anything else?
+- {w=100,h=5} Enter your comment

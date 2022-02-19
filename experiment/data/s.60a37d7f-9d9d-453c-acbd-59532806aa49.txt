@@ -1,0 +1,47 @@
+version: 3.1.0
+server-time: 2020-12-08-03-03
+user_agent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:83.0) gecko/20100101 firefox/83.0
+screen_width: 1920
+screen_height: 1080
+html_width: 1903
+html_height: 4714
+user_time: Tue, 08 Dec 2020 02:03:39 GMT
+T: 124912
+l: age
+stime: 2020-12-08-03-03
+T: 14018
+t: range
+a: 35
+s: 35
+l: gender
+stime: 2020-12-08-03-04
+T: 4210
+t: radio
+a: 2
+l: experience
+stime: 2020-12-08-03-04
+T: 18828
+t: radio
+a: 4
+l: years
+stime: 2020-12-08-03-04
+T: 4571
+t: range
+a: 1
+s: 1
+l: number
+stime: 2020-12-08-03-04
+T: 6779
+t: radio
+a: 1
+l: fake_mris
+stime: 2020-12-08-03-19
+T: 886301
+t: experiment
+l: comment
+stime: 2020-12-08-03-20
+T: 24267
+t: textbox
+a: The images were a bit small to really differentiate some of the pictures
+endcode: 2rBh9ar7
+end 2020-12-08-03-20
