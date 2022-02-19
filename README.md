@@ -13,6 +13,7 @@ Clone the repo and install the following packages:
 - `scipy`
 - `numpy`
 - `pandas`
+- `openpyxl`
 - `statsmodels`
 - `scikit-learn`
 - `jupyter`
@@ -36,7 +37,9 @@ The folder [`camcan_data`](/camcan_data) contains grey-matter density maps for r
 
 # Experiment 
 
-The [`experiment`](/experiment) folder contains data, images and scripts relating to the behavioral experiment. It contains the subfolder [`Psytoolkit`](/experiment/Psytoolkit) is a download from the [PsyToolkit website](https://www.psytoolkit.org/) with all the PsytoolKit scripts. It contains the subset of images in the [`experiment`](/experiment) folder that were used in the behavioral experiment. 
+The [`experiment`](/experiment) folder contains data, images and scripts relating to the behavioral experiment. It contains the subfolder [`Psytoolkit`](/experiment/Psytoolkit) is a download from the [PsyToolkit website](https://www.psytoolkit.org/) with all the Psytoolkit scripts. The Psytoolkit folder also contains the subset of images in the [`experiment`](/experiment) folder that were used in the behavioral experiment. 
+
+The raw behavioral data is contained in the [`experiment/data`](/experiment/data) folder. For the analysis of the behavioral data refer to the Jupyter notebook [`analyze_psytoolkit_data.ipynb`](scripts/analyze_psytoolkit_data.ipynb).
 
 # Scripts
 
