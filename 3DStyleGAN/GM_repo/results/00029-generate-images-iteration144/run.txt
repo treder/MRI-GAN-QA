@@ -1,0 +1,1 @@
+{'host_name': 'localhost', 'start_time': '2022-01-10 09:33:54.149167', 'stop_time': '2022-01-10 09:33:54.149302', 'task_name': 'matthiasisizeco-00029-generate-images'}
