@@ -1,0 +1,47 @@
+version: 3.1.0
+server-time: 2021-01-25-12-10
+user_agent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:84.0) gecko/20100101 firefox/84.0
+screen_width: 1536
+screen_height: 864
+html_width: 1519
+html_height: 3427
+user_time: Mon, 25 Jan 2021 11:10:40 GMT
+T: 6821
+l: age
+stime: 2021-01-25-12-10
+T: 7408
+t: range
+a: 30
+s: 30
+l: gender
+stime: 2021-01-25-12-10
+T: 1702
+t: radio
+a: 2
+l: experience
+stime: 2021-01-25-12-10
+T: 8133
+t: radio
+a: 3
+l: years
+stime: 2021-01-25-12-10
+T: 4111
+t: range
+a: 1
+s: 1
+l: number
+stime: 2021-01-25-12-11
+T: 6830
+t: radio
+a: 2
+l: fake_mris
+stime: 2021-01-25-12-31
+T: 1216250
+t: experiment
+l: comment
+stime: 2021-01-25-12-31
+T: 3878
+t: textbox
+a: 
+endcode: jskOWKVu
+end 2021-01-25-12-31

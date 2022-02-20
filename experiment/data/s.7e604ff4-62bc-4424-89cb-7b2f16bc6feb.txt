@@ -1,0 +1,36 @@
+version: 3.1.0
+server-time: 2020-12-04-11-19
+user_agent: mozilla/5.0 (windows nt 10.0; wow64; trident/7.0; rv:11.0) like gecko
+screen_width: 2560
+screen_height: 1440
+html_width: 2526
+html_height: 4773
+user_time: Fri, 04 Dec 2020 10:19:42 GMT
+T: 313947
+l: age
+stime: 2020-12-04-11-19
+T: 14911
+t: range
+a: 31
+s: 31
+l: gender
+stime: 2020-12-04-11-20
+T: 2477
+t: radio
+a: 1
+l: experience
+stime: 2020-12-04-11-20
+T: 12141
+t: radio
+a: 3
+l: years
+stime: 2020-12-04-11-20
+T: 12966
+t: range
+a: 7
+s: 7
+l: number
+stime: 2020-12-04-11-20
+T: 10821
+t: radio
+a: 2

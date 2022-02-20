@@ -1,0 +1,47 @@
+version: 3.1.0
+server-time: 2020-10-31-13-54
+user_agent: mozilla/5.0 (macintosh; intel mac os x 10_14_6) applewebkit/537.36 (khtml, like gecko) chrome/86.0.4240.111 safari/537.36
+screen_width: 2560
+screen_height: 1440
+html_width: 1591
+html_height: 4712
+user_time: Sat, 31 Oct 2020 12:54:37 GMT
+T: 3507
+l: age
+stime: 2020-10-31-13-54
+T: 5898
+t: range
+a: 44
+s: 44
+l: gender
+stime: 2020-10-31-13-54
+T: 2373
+t: radio
+a: 2
+l: experience
+stime: 2020-10-31-13-54
+T: 6322
+t: radio
+a: 2
+l: years
+stime: 2020-10-31-13-55
+T: 16918
+t: range
+a: 15
+s: 15
+l: number
+stime: 2020-10-31-13-55
+T: 10456
+t: radio
+a: 2
+l: fake_mris
+stime: 2020-10-31-15-20
+T: 5119437
+t: experiment
+l: comment
+stime: 2020-10-31-15-21
+T: 33367
+t: textbox
+a: The type of MRI sequence is not the typical sequence I usually look at in patients (T1-weighted)
+endcode: yaG68bDh
+end 2020-10-31-15-21

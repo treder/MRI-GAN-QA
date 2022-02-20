@@ -1,0 +1,14 @@
+rt 8
+st 7
+g1 10
+g2 
+g3 
+g4 
+g5 
+fs 
+block 2
+include_blocks 
+exclude_blocks 
+exclude_3sd 
+exclude_below 200
+exclude_above 

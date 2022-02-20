@@ -1,0 +1,47 @@
+version: 3.1.0
+server-time: 2020-11-29-11-59
+user_agent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/87.0.4280.66 safari/537.36
+screen_width: 1920
+screen_height: 1080
+html_width: 1903
+html_height: 4712
+user_time: Sun, 29 Nov 2020 10:59:47 GMT
+T: 122263
+l: age
+stime: 2020-11-29-11-59
+T: 8063
+t: range
+a: 62
+s: 62
+l: gender
+stime: 2020-11-29-11-59
+T: 3165
+t: radio
+a: 1
+l: experience
+stime: 2020-11-29-12-00
+T: 18840
+t: radio
+a: 4
+l: years
+stime: 2020-11-29-12-00
+T: 10578
+t: range
+a: 17
+s: 17
+l: number
+stime: 2020-11-29-12-00
+T: 11188
+t: radio
+a: 1
+l: fake_mris
+stime: 2020-11-29-12-20
+T: 1197346
+t: experiment
+l: comment
+stime: 2020-11-29-12-20
+T: 4094
+t: textbox
+a: 
+endcode: VgHVTnDh
+end 2020-11-29-12-20

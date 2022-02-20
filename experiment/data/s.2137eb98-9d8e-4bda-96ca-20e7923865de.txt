@@ -1,0 +1,47 @@
+version: 3.1.0
+server-time: 2020-10-16-20-28
+user_agent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:81.0) gecko/20100101 firefox/81.0
+screen_width: 1280
+screen_height: 720
+html_width: 1269
+html_height: 4821
+user_time: Fri, 16 Oct 2020 18:28:48 GMT
+T: 142543
+l: age
+stime: 2020-10-16-20-29
+T: 15312
+t: range
+a: 28
+s: 28
+l: gender
+stime: 2020-10-16-20-29
+T: 3792
+t: radio
+a: 1
+l: experience
+stime: 2020-10-16-20-29
+T: 11759
+t: radio
+a: 4
+l: years
+stime: 2020-10-16-20-29
+T: 8779
+t: range
+a: 2
+s: 2
+l: number
+stime: 2020-10-16-20-29
+T: 9547
+t: radio
+a: 2
+l: fake_mris
+stime: 2020-10-16-20-48
+T: 1143175
+t: experiment
+l: comment
+stime: 2020-10-16-20-49
+T: 46701
+t: textbox
+a: The MRI images appeared very small on my laptop screen, much smaller than I would typically view a 3-pane image, and I don't use excessive zoom. Perhaps this was intentional but I wanted to let you know in case not.
+endcode: OOPuEaOW
+end 2020-10-16-20-49

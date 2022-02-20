@@ -1,0 +1,47 @@
+version: 3.1.0
+server-time: 2021-01-24-12-51
+user_agent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:84.0) gecko/20100101 firefox/84.0
+screen_width: 1920
+screen_height: 1080
+html_width: 1903
+html_height: 4714
+user_time: Sun, 24 Jan 2021 11:51:16 GMT
+T: 197159
+l: age
+stime: 2021-01-24-12-51
+T: 5615
+t: range
+a: 28
+s: 28
+l: gender
+stime: 2021-01-24-12-51
+T: 2365
+t: radio
+a: 1
+l: experience
+stime: 2021-01-24-12-51
+T: 20275
+t: radio
+a: 3
+l: years
+stime: 2021-01-24-12-51
+T: 6168
+t: range
+a: 3
+s: 3
+l: number
+stime: 2021-01-24-12-52
+T: 11295
+t: radio
+a: 2
+l: fake_mris
+stime: 2021-01-24-13-09
+T: 1045311
+t: experiment
+l: comment
+stime: 2021-01-24-13-10
+T: 65677
+t: textbox
+a: It might be useful to consider whether participants have experience with AI- or GAN-generated images, as well as experience with MRIs. 
+endcode: ZfCPRLVW
+end 2021-01-24-13-10

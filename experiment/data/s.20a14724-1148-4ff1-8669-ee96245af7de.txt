@@ -1,0 +1,36 @@
+version: 3.1.0
+server-time: 2021-01-26-14-18
+user_agent: mozilla/5.0 (x11; ubuntu; linux x86_64; rv:84.0) gecko/20100101 firefox/84.0
+screen_width: 1920
+screen_height: 1080
+html_width: 1910
+html_height: 4547
+user_time: Tue, 26 Jan 2021 13:18:39 GMT
+T: 179628
+l: age
+stime: 2021-01-26-14-18
+T: 6964
+t: range
+a: 30
+s: 30
+l: gender
+stime: 2021-01-26-14-18
+T: 2493
+t: radio
+a: 2
+l: experience
+stime: 2021-01-26-14-19
+T: 66131
+t: radio
+a: 4
+l: years
+stime: 2021-01-26-14-20
+T: 10959
+t: range
+a: 1
+s: 1
+l: number
+stime: 2021-01-26-14-20
+T: 5202
+t: radio
+a: 1

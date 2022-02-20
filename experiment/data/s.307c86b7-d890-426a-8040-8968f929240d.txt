@@ -1,0 +1,47 @@
+version: 3.1.0
+server-time: 2020-12-15-12-32
+user_agent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/87.0.4280.88 safari/537.36 edg/87.0.664.57
+screen_width: 2560
+screen_height: 1440
+html_width: 2543
+html_height: 4712
+user_time: Tue, 15 Dec 2020 11:32:49 GMT
+T: 384479
+l: age
+stime: 2020-12-15-12-32
+T: 6013
+t: range
+a: 38
+s: 38
+l: gender
+stime: 2020-12-15-12-32
+T: 2554
+t: radio
+a: 2
+l: experience
+stime: 2020-12-15-12-33
+T: 13423
+t: radio
+a: 3
+l: years
+stime: 2020-12-15-12-33
+T: 10281
+t: range
+a: 8
+s: 8
+l: number
+stime: 2020-12-15-12-33
+T: 7189
+t: radio
+a: 2
+l: fake_mris
+stime: 2020-12-15-12-52
+T: 1111647
+t: experiment
+l: comment
+stime: 2020-12-15-12-53
+T: 65081
+t: textbox
+a: The training set did not seem to have real pictures with poor quality. So it felt like quality of the picture (less noise) was a confounder.
+endcode: Jv6RrGpC
+end 2020-12-15-12-53

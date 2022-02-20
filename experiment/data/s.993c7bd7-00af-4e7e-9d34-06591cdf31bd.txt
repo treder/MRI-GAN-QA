@@ -1,0 +1,36 @@
+version: 3.1.0
+server-time: 2021-01-07-08-08
+user_agent: mozilla/5.0 (linux; android 10; oneplus a6003) applewebkit/537.36 (khtml, like gecko) chrome/87.0.4280.101 mobile safari/537.36
+screen_width: 412
+screen_height: 869
+html_width: 412
+html_height: 7163
+user_time: Thu, 07 Jan 2021 07:08:39 GMT
+T: 8326
+l: age
+stime: 2021-01-07-08-08
+T: 7351
+t: range
+a: 25
+s: 25
+l: gender
+stime: 2021-01-07-08-08
+T: 3017
+t: radio
+a: 1
+l: experience
+stime: 2021-01-07-08-09
+T: 12947
+t: radio
+a: 4
+l: years
+stime: 2021-01-07-08-09
+T: 4076
+t: range
+a: 1
+s: 1
+l: number
+stime: 2021-01-07-08-09
+T: 8443
+t: radio
+a: 2

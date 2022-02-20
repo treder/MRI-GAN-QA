@@ -1,0 +1,47 @@
+version: 3.1.0
+server-time: 2020-11-27-16-38
+user_agent: mozilla/5.0 (macintosh; intel mac os x 11_0_1) applewebkit/537.36 (khtml, like gecko) chrome/87.0.4280.67 safari/537.36
+screen_width: 1920
+screen_height: 1080
+html_width: 1851
+html_height: 4712
+user_time: Fri, 27 Nov 2020 15:38:09 GMT
+T: 3315
+l: age
+stime: 2020-11-27-16-38
+T: 6480
+t: range
+a: 31
+s: 31
+l: gender
+stime: 2020-11-27-16-38
+T: 2176
+t: radio
+a: 2
+l: experience
+stime: 2020-11-27-16-38
+T: 2289
+t: radio
+a: 3
+l: years
+stime: 2020-11-27-16-38
+T: 3923
+t: range
+a: 9
+s: 9
+l: number
+stime: 2020-11-27-16-38
+T: 1736
+t: radio
+a: 2
+l: fake_mris
+stime: 2020-11-27-17-00
+T: 843729
+t: experiment
+l: comment
+stime: 2020-11-27-17-03
+T: 127877
+t: textbox
+a: Are there a few real images that are deliberately mixed with additional artefacts or noises?
+endcode: 6nKNQmUJ
+end 2020-11-27-17-03

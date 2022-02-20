@@ -1,0 +1,47 @@
+version: 3.1.0
+server-time: 2020-11-27-17-45
+user_agent: mozilla/5.0 (x11; ubuntu; linux x86_64; rv:83.0) gecko/20100101 firefox/83.0
+screen_width: 1366
+screen_height: 768
+html_width: 1282
+html_height: 4870
+user_time: Fri, 27 Nov 2020 16:45:30 GMT
+T: 38704
+l: age
+stime: 2020-11-27-17-45
+T: 7266
+t: range
+a: 33
+s: 33
+l: gender
+stime: 2020-11-27-17-45
+T: 2299
+t: radio
+a: 2
+l: experience
+stime: 2020-11-27-17-45
+T: 10195
+t: radio
+a: 3
+l: years
+stime: 2020-11-27-17-46
+T: 6557
+t: range
+a: 2
+s: 2
+l: number
+stime: 2020-11-27-17-46
+T: 7319
+t: radio
+a: 2
+l: fake_mris
+stime: 2020-11-27-17-56
+T: 620458
+t: experiment
+l: comment
+stime: 2020-11-27-17-56
+T: 9004
+t: textbox
+a: very nice experiment
+endcode: Tkez8tKr
+end 2020-11-27-17-56
