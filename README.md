@@ -63,7 +63,14 @@ The [`experiment`](/experiment) folder contains data, images and scripts relatin
 
 ## scripts
 
-Training and inference code for the Deep QA model and Jupyter notebooks showing the analyses of the metrics and behavioral data. 
+Training and inference code for the Deep QA model and Jupyter notebooks showing the analyses of the metrics and behavioral data. It contains the following files:
+
+- `analyze_2D_image_metrics_detection_task.ipynb`: image quality metrics and PCA on the images used in the behavioral detection task.
+- `analyze_2D_image_metrics_rating_task.ipynb`: image quality metrics and PCA on the images used in the behavioral rating task.
+- `analyze_2D_image_NIQE_BRISQUE.m`: MATLAB script for calculating NIQE and BRISQUE on the images.
+- `analyze_psytoolkit_data.ipynb`: analysis of the behavioral data.
+- `DeepQA_train.py` and `DeepQA_inference.py`: training and inference code for the Deep QA model, explained next.
+
 The Deep QA model is trained by running 
 
 ```
