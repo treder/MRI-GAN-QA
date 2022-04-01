@@ -1,6 +1,6 @@
 # MRI-GAN-QA
 
-Data and code accompanying the paper [INSERT PAPER LINK].
+Data and code accompanying the paper [Quality assessment of anatomical MRI images from Generative Adversarial Networks: human assessment and image quality metrics](https://doi.org/10.1016/j.jneumeth.2022.109579).
 
 # Installation
 
