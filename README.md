@@ -1,6 +1,8 @@
 # MRI-GAN-QA
 
-Data and code accompanying the paper [Quality assessment of anatomical MRI images from Generative Adversarial Networks: human assessment and image quality metrics](https://doi.org/10.1016/j.jneumeth.2022.109579).
+Data and code accompanying the paper:
+
+[Treder, M. S., Codrai, R., & Tsvetanov, K. A. (2022). Quality assessment of anatomical MRI images from generative adversarial networks: Human assessment and image quality metrics. Journal of Neuroscience Methods, 374, 109579. https://doi.org/10.1016/J.JNEUMETH.2022.109579](https://doi.org/10.1016/j.jneumeth.2022.109579).
 
 # Installation
 
